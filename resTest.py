@@ -91,8 +91,11 @@ def scrape_titles(url, search_query):
     elif "academic.oup.com/journals" in url:
         # Send an HTTP GET request to the next URL
         print("------Academic")
-        url = f"https://academic.oup.com/journals?q={search_query}"
-        response = requests.get(url)
+        url = f"https://academic.oup.com/journals/advanced-search?q={search_query}"
+
+        response = requests.get(url) 
+
+        
 
         # Define the maximum number of results you want (adjust as needed)
         max_results = 5
