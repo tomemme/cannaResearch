@@ -90,7 +90,7 @@ def scrape_titles(url, search_query):
                 print(title)
                 counter += 1
 
-    elif "academic.oup.com/journals" in url:
+    #elif "academic.oup.com/journals" in url:
         # Send an HTTP GET request to the next URL
 
         # print("------Academic")
