@@ -50,7 +50,7 @@ def scrape_titles(url, search_query):
         response = requests.get(url)
 
         # Define the maximum number of results you want (5 in this case)
-        max_results = 1
+        max_results = 5
 
         # Parse the HTML response
         soup = BeautifulSoup(response.text, "html.parser")
@@ -72,7 +72,7 @@ def scrape_titles(url, search_query):
         response = requests.get(url)
 
         # Define the maximum number of results you want (adjust as needed)
-        max_results = 2
+        max_results = 5
 
         # Parse the HTML response
         soup = BeautifulSoup(response.text, "html.parser")
@@ -95,7 +95,7 @@ def scrape_titles(url, search_query):
         response = requests.get(url)
 
         # Define the maximum number of results you want (adjust as needed)
-        max_results = 2
+        max_results = 5
 
         # Parse the HTML response
         soup = BeautifulSoup(response.text, "html.parser")
