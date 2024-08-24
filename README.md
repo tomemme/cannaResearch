@@ -26,14 +26,14 @@ git clone https://github.com/tomemme/cannaResearch.git
 cd cannaResearch
 ```
 
-## Installation
+## Usage
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
 python resTest.py   # call code
 ```
-## Contributions
+## Contributing
 Contributions are welcome! If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcome.
 
 -Fork the project
