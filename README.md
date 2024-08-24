@@ -10,7 +10,6 @@ CannaResearch is a Python-based project designed to scrape and analyze research 
 - [Dependencies](#dependencies)
 - [Contributing](#contributing)
 - [License](#license)
-- [Contact](#contact)
 
 ## Features
 
@@ -19,7 +18,7 @@ CannaResearch is a Python-based project designed to scrape and analyze research 
 - **Customizable Output:** Modify the number of results displayed and the sources queried.
 - **Selenium Integration:** Automate browser interactions for websites that require JavaScript execution.
 
-### Clone the Repository
+### Installation
 
 ```bash
 git clone https://github.com/tomemme/cannaResearch.git
@@ -32,7 +31,10 @@ python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
 python resTest.py   # call code
+>Enter the search query: 
 ```
+![GUI](https://github.com/tomemme/cannaResearch/blob/main/ResearchResult.PNG)
+
 ## Contributing
 Contributions are welcome! If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcome.
 
