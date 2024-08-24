@@ -13,7 +13,8 @@ def scrape_titles(url, search_query):
         encoded_query = quote(search_query)
 
         # Provide your email address to comply with NCBI's usage policies
-        Entrez.email = "users@mail.com"
+        Entrez.email = "users@email.com"
+ 
 
         # Perform the PubMed search using the encoded query
         handle = Entrez.esearch(db="pubmed", term=encoded_query)
